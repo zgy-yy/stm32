@@ -2,9 +2,16 @@
 
 void main() {
 
-    RCC->APB2ENR = 0x00000010;//使能时钟
-    GPIOC->CRH = 0x00300000; // gpio模式
-    GPIOC->ODR = 0x00200000;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);//使能 gpioc 时钟
+
+    GPIO_InitTypeDef gpio_initStructure = {
+            .GPIO_Mode = GPIO_Mode_Out_PP,
+            .GPIO_Pin=GPIO_Pin_13,
+            .GPIO_Speed=GPIO_Speed_50MHz
+    };
+    GPIO_Init(GPIOC, &gpio_initStructure);
+    GPIO_ResetBits(GPIOC, GPIO_Pin_13);
+//    GPIO_SetBits(GPIOC, GPIO_Pin_13);
     while (1) {
 
     }
