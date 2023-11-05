@@ -20,52 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="led">
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Key/Inc/key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Key/Src/key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Utils/delay.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Utils/delay.h" afterDir="false" />
+    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="key gpio input">
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Exti/exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Exti/exti.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Led/Inc/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Src/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Led/Src/led.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-112c26540e9d91624899.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-04T08-46-30-0844.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-stm32_learn01.elf-Debug-fa694d7758c3644e4a01.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/stm32f10x_it.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/stm32f10x_it.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/system_stm32f10x.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/system_stm32f10x.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/system_stm32f10x.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/system_stm32f10x.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/misc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/misc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/misc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/misc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_adc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_adc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_bkp.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_bkp.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_can.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_can.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_cec.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_cec.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_crc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_crc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dac.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dac.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dbgmcu.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dbgmcu.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dma.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_dma.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_exti.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_exti.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_flash.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_flash.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_fsmc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_fsmc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_gpio.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_gpio.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_i2c.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_i2c.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_iwdg.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_iwdg.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_pwr.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_pwr.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_pwr.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_rcc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_rcc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_rtc.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_rtc.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_sdio.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_sdio.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_spi.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_spi.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_tim.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_tim.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_usart.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_usart.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_wwdg.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Drivers/Library/Src/stm32f10x_wwdg.c.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.internal" afterDir="false" />
@@ -87,6 +52,22 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1492" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
@@ -184,7 +165,7 @@
       <workItem from="1699086618044" duration="168000" />
       <workItem from="1699086799035" duration="17000" />
       <workItem from="1699086877181" duration="8489000" />
-      <workItem from="1699157410679" duration="5468000" />
+      <workItem from="1699157410679" duration="9147000" />
     </task>
     <task id="LOCAL-00001" summary="gpio start">
       <option name="closed" value="true" />
@@ -202,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699162062127</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="key gpio input">
+      <option name="closed" value="true" />
+      <created>1699164887983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699164887983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +217,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gpio start" />
     <MESSAGE value="led" />
-    <option name="LAST_COMMIT_MESSAGE" value="led" />
+    <MESSAGE value="key gpio input" />
+    <option name="LAST_COMMIT_MESSAGE" value="key gpio input" />
   </component>
 </project>

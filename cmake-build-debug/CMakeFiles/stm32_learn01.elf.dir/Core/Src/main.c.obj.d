@@ -37,4 +37,5 @@ CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj: \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/misc.h \
  D:\AA_stm32\stm32_learn00\Core\Hardware\Led\Inc/led.h \
  D:\AA_stm32\stm32_learn00\Core\Hardware\Utils/delay.h \
- D:\AA_stm32\stm32_learn00\Core\Hardware\Key\Inc/key.h
+ D:\AA_stm32\stm32_learn00\Core\Hardware\Key\Inc/key.h \
+ D:\AA_stm32\stm32_learn00\Core\Hardware\Exti/exti.h

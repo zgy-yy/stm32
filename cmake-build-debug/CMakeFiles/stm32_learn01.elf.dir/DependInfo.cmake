@@ -27,10 +27,12 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Exti"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Exti/exti.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Src/key.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Src/led.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj.d"

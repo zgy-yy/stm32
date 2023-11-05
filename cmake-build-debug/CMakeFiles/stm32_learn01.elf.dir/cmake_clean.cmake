@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.obj"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.obj.d"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj.d"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj"

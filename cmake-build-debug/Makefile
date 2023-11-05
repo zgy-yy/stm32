@@ -128,6 +128,30 @@ stm32_learn01.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/build
 .PHONY : stm32_learn01.elf/fast
 
+Core/Hardware/Exti/exti.obj: Core/Hardware/Exti/exti.c.obj
+.PHONY : Core/Hardware/Exti/exti.obj
+
+# target to build an object file
+Core/Hardware/Exti/exti.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.obj
+.PHONY : Core/Hardware/Exti/exti.c.obj
+
+Core/Hardware/Exti/exti.i: Core/Hardware/Exti/exti.c.i
+.PHONY : Core/Hardware/Exti/exti.i
+
+# target to preprocess a source file
+Core/Hardware/Exti/exti.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.i
+.PHONY : Core/Hardware/Exti/exti.c.i
+
+Core/Hardware/Exti/exti.s: Core/Hardware/Exti/exti.c.s
+.PHONY : Core/Hardware/Exti/exti.s
+
+# target to generate assembly for a file
+Core/Hardware/Exti/exti.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Exti/exti.c.s
+.PHONY : Core/Hardware/Exti/exti.c.s
+
 Core/Hardware/Key/Src/key.obj: Core/Hardware/Key/Src/key.c.obj
 .PHONY : Core/Hardware/Key/Src/key.obj
 
@@ -865,6 +889,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... stm32_learn01.elf
+	@echo ... Core/Hardware/Exti/exti.obj
+	@echo ... Core/Hardware/Exti/exti.i
+	@echo ... Core/Hardware/Exti/exti.s
 	@echo ... Core/Hardware/Key/Src/key.obj
 	@echo ... Core/Hardware/Key/Src/key.i
 	@echo ... Core/Hardware/Key/Src/key.s

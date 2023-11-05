@@ -53,7 +53,8 @@ endif ()
 include_directories(Core/Inc Drivers/CMSIS/include
         Drivers/Library/Inc Core/Hardware/Utils
         Core/Hardware/Led/Inc
-        Core/Hardware/Key/Inc)
+        Core/Hardware/Key/Inc
+        Core/Hardware/Exti)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 

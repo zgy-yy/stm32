@@ -33,6 +33,7 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -63,6 +64,7 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -98,6 +100,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti/exti.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti/exti.h">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc/key.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
