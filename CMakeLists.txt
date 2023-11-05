@@ -50,7 +50,8 @@ else ()
 endif ()
 
 #头文件 路径
-include_directories(Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include Drivers/Library/Inc)
+include_directories(Core/Inc Drivers/CMSIS/include
+        Drivers/Library/Inc Core/Hardware/Inc)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 

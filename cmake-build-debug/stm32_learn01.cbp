@@ -28,11 +28,9 @@
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Include"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -58,11 +56,9 @@
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Include"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -98,10 +94,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc/led.h">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Src/led.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/main.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/stm32f10x.h">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/stm32f10x_conf.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/stm32f10x_it.h">

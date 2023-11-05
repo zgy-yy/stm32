@@ -128,6 +128,30 @@ stm32_learn01.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/build
 .PHONY : stm32_learn01.elf/fast
 
+Core/Hardware/Src/led.obj: Core/Hardware/Src/led.c.obj
+.PHONY : Core/Hardware/Src/led.obj
+
+# target to build an object file
+Core/Hardware/Src/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Src/led.c.obj
+.PHONY : Core/Hardware/Src/led.c.obj
+
+Core/Hardware/Src/led.i: Core/Hardware/Src/led.c.i
+.PHONY : Core/Hardware/Src/led.i
+
+# target to preprocess a source file
+Core/Hardware/Src/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Src/led.c.i
+.PHONY : Core/Hardware/Src/led.c.i
+
+Core/Hardware/Src/led.s: Core/Hardware/Src/led.c.s
+.PHONY : Core/Hardware/Src/led.s
+
+# target to generate assembly for a file
+Core/Hardware/Src/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Src/led.c.s
+.PHONY : Core/Hardware/Src/led.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -793,6 +817,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... stm32_learn01.elf
+	@echo ... Core/Hardware/Src/led.obj
+	@echo ... Core/Hardware/Src/led.i
+	@echo ... Core/Hardware/Src/led.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
