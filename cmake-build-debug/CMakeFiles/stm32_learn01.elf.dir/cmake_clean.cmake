@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj.d"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj.d"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj"
+  "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj.d"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d"
   "CMakeFiles/stm32_learn01.elf.dir/Core/Src/stm32f10x_it.c.obj"

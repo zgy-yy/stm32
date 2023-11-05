@@ -22,15 +22,18 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "D:/AA_stm32/stm32_learn00/Core/Inc"
-  "D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc"
-  "D:/AA_stm32/stm32_learn00/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
-  "D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
-  "D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Include"
+  "D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"
   "D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Src/key.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Key/Src/key.c.obj.d"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Src/led.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.obj.d"
+  "D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Core/Src/main.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Core/Src/stm32f10x_it.c" "CMakeFiles/stm32_learn01.elf.dir/Core/Src/stm32f10x_it.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Core/Src/stm32f10x_it.c.obj.d"
   "D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Source/core_cm3.c" "CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/core_cm3.c.obj" "gcc" "CMakeFiles/stm32_learn01.elf.dir/Drivers/CMSIS/Source/core_cm3.c.obj.d"

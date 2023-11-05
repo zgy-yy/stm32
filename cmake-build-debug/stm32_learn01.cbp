@@ -30,7 +30,9 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -58,7 +60,9 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -94,10 +98,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Inc/led.h">
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc/key.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
-		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Src/led.c">
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Src/key.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc/led.h">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Src/led.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/main.h">

@@ -22,3 +22,13 @@ void led_on() {
 void led_off() {
     GPIO_WriteBit(GPIOC, GPIO_Pin_13, 1);
 }
+
+
+
+void led_turn() {
+    if (GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_13) == 0) {
+        GPIO_WriteBit(GPIOC, GPIO_Pin_13, 1);
+    } else {
+        GPIO_WriteBit(GPIOC, GPIO_Pin_13, 0);
+    }
+}

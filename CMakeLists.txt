@@ -51,7 +51,9 @@ endif ()
 
 #头文件 路径
 include_directories(Core/Inc Drivers/CMSIS/include
-        Drivers/Library/Inc Core/Hardware/Inc)
+        Drivers/Library/Inc Core/Hardware/Utils
+        Core/Hardware/Led/Inc
+        Core/Hardware/Key/Inc)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 

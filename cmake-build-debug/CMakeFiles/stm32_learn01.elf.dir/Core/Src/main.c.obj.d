@@ -1,7 +1,8 @@
 CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj: \
  D:\AA_stm32\stm32_learn00\Core\Src\main.c \
+ d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h \
  D:\AA_stm32\stm32_learn00\Core\Inc/stm32f10x.h \
- D:\AA_stm32\stm32_learn00\Drivers\CMSIS\Include/core_cm3.h \
+ D:\AA_stm32\stm32_learn00\Drivers\CMSIS\include/core_cm3.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\stdint.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\machine\_default_types.h \
@@ -9,7 +10,7 @@ CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj: \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\_newlib_version.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_intsup.h \
  d:\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\include\sys\_stdint.h \
- D:\AA_stm32\stm32_learn00\Drivers\CMSIS\Include/system_stm32f10x.h \
+ D:\AA_stm32\stm32_learn00\Drivers\CMSIS\include/system_stm32f10x.h \
  D:\AA_stm32\stm32_learn00\Core\Inc/stm32f10x_conf.h \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/stm32f10x_adc.h \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/stm32f10x_bkp.h \
@@ -33,4 +34,7 @@ CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj: \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/stm32f10x_tim.h \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/stm32f10x_usart.h \
  D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/stm32f10x_wwdg.h \
- D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/misc.h
+ D:\AA_stm32\stm32_learn00\Drivers\Library\Inc/misc.h \
+ D:\AA_stm32\stm32_learn00\Core\Hardware\Led\Inc/led.h \
+ D:\AA_stm32\stm32_learn00\Core\Hardware\Utils/delay.h \
+ D:\AA_stm32\stm32_learn00\Core\Hardware\Key\Inc/key.h
