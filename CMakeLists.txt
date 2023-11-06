@@ -56,7 +56,9 @@ include_directories(Core/Inc Drivers/CMSIS/include
         Core/System/Timmer
         Core/Hardware/Led/Inc
         Core/Hardware/Key/Inc
-        Core/Hardware/Exti)
+        Core/Hardware/Exti
+        Core/Hardware/ExteSource
+        Core/Hardware/Pwm)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 

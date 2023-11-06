@@ -21,31 +21,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="exti 外部中断">
-      <change afterPath="$PROJECT_DIR$/Core/System/Timmer/timmer.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/System/Timmer/timmer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Utils/delay.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/System/Utils/delay.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Utils/delay.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/System/Utils/delay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/Core/Src/main.c.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/stm32_learn01.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/stm32_learn01.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,24 +85,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AA_stm32/stm32_learn00/Core/Inc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/AA_stm32/stm32_learn00/Core/Inc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\AA_stm32\stm32_learn00\Core\Inc" />
@@ -138,6 +121,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OCD stm32_learn01" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32_learn01" TARGET_NAME="stm32_learn01.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="stm32_learn01" RUN_TARGET_NAME="stm32_learn01.elf">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board\Astm32f103c8t6.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
@@ -163,7 +151,7 @@
       <workItem from="1699086799035" duration="17000" />
       <workItem from="1699086877181" duration="8489000" />
       <workItem from="1699157410679" duration="14994000" />
-      <workItem from="1699239921817" duration="797000" />
+      <workItem from="1699239921817" duration="8127000" />
     </task>
     <task id="LOCAL-00001" summary="gpio start">
       <option name="closed" value="true" />

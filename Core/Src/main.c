@@ -2,30 +2,25 @@
 #include "stm32f10x.h"
 #include "led.h"
 #include "key.h"
-#include "exti.h"
-#include "timmer.h"
+#include "delay.h"
+
+#include "pwm.h"
 
 void main() {
 
-    led_init();
-    key_init();
-    exti_init();
+    Pwm_init();
 
-    Timer_Init();
-    led_off();
 
     while (true) {
-
-
+        for (uint8_t i = 0; i <100; ++i) {
+            Pwm_setCompare(i);
+            Delay_ms(10);
+        }
+        for (uint8_t i = 0; i <100; ++i) {
+            Pwm_setCompare(100-i);
+            Delay_ms(10);
+        }
     }
 }
 
 
-void TIM2_IRQHandler() {
-
-    if (TIM_GetITStatus(TIM2, TIM_IT_Update) == SET) {
-
-        led_turn();
-        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
-    }
-}
