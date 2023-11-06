@@ -10,16 +10,9 @@ void main() {
 
     Pwm_init();
 
-
+    Pwm_setCompare(1000);
     while (true) {
-        for (uint8_t i = 0; i <100; ++i) {
-            Pwm_setCompare(i);
-            Delay_ms(10);
-        }
-        for (uint8_t i = 0; i <100; ++i) {
-            Pwm_setCompare(100-i);
-            Delay_ms(10);
-        }
+
     }
 }
 

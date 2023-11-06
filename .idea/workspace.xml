@@ -20,13 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="exti 外部中断">
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" afterDir="false" />
+    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="pwm led">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/ExteSource/extesource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +148,7 @@
       <workItem from="1699086799035" duration="17000" />
       <workItem from="1699086877181" duration="8489000" />
       <workItem from="1699157410679" duration="14994000" />
-      <workItem from="1699239921817" duration="8127000" />
+      <workItem from="1699239921817" duration="10175000" />
     </task>
     <task id="LOCAL-00001" summary="gpio start">
       <option name="closed" value="true" />
@@ -185,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699169659312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pwm led">
+      <option name="closed" value="true" />
+      <created>1699253351888</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699253351888</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +218,7 @@
     <MESSAGE value="led" />
     <MESSAGE value="key gpio input" />
     <MESSAGE value="exti 外部中断" />
-    <option name="LAST_COMMIT_MESSAGE" value="exti 外部中断" />
+    <MESSAGE value="pwm led" />
+    <option name="LAST_COMMIT_MESSAGE" value="pwm led" />
   </component>
 </project>

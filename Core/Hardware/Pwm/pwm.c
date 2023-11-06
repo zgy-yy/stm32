@@ -15,8 +15,8 @@ void Pwm_init() {
     TIM_TimeBaseInitTypeDef tim2_base_config = {
             .TIM_ClockDivision=TIM_CKD_DIV1, //时钟信号滤波采样频率 分频系数
             .TIM_CounterMode=TIM_CounterMode_Up, //向上计数
-            .TIM_Period=100 - 1,//arr 自动重装载寄存器
-            .TIM_Prescaler=720 - 1,//psc 预分频
+            .TIM_Period=20000 - 1,//arr 自动重装载寄存器
+            .TIM_Prescaler=72 - 1,//psc 预分频
             .TIM_RepetitionCounter=0 //重复计数器参数 普通定时器没有 设置0
 
     };
@@ -32,14 +32,13 @@ void Pwm_init() {
             .TIM_Pulse=0,//初始的CCR值
     };
 
-
-    TIM_OC1Init(TIM2, &tim_oc_config);
+    TIM_OC2Init(TIM2, &tim_oc_config);
 
 // 对应的GPIO 配置
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
     GPIO_InitTypeDef gpio_config = {
             .GPIO_Mode = GPIO_Mode_AF_PP,
-            .GPIO_Pin=GPIO_Pin_0,
+            .GPIO_Pin=GPIO_Pin_1,
             .GPIO_Speed=GPIO_Speed_50MHz
     };
     GPIO_Init(GPIOA, &gpio_config);
@@ -50,5 +49,9 @@ void Pwm_init() {
 
 void Pwm_setCompare(uint16_t compare) {
 //    更改 ccr的值
-    TIM_SetCompare1(TIM2, compare);
+    TIM_SetCompare2(TIM2, compare);
+}
+
+void Servo_setAngle(float Angle) {
+    Pwm_setCompare(Angle / 180 * 2000 + 500);
 }

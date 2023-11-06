@@ -11,4 +11,6 @@ void Pwm_init();
 
 void Pwm_setCompare(uint16_t);
 
+void Servo_setAngle(float Angle);
+
 #endif //STM32_LEARN01_PWM_H
