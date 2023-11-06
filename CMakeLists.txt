@@ -51,7 +51,9 @@ endif ()
 
 #头文件 路径
 include_directories(Core/Inc Drivers/CMSIS/include
-        Drivers/Library/Inc Core/Hardware/Utils
+        Drivers/Library/Inc
+        Core/System/Utils
+        Core/System/Timmer
         Core/Hardware/Led/Inc
         Core/Hardware/Key/Inc
         Core/Hardware/Exti)

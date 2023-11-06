@@ -30,7 +30,8 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/System/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/System/Timmer"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti"/>
@@ -61,7 +62,8 @@
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/include"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Drivers/Library/Inc"/>
-					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/System/Utils"/>
+					<Add directory="D:/AA_stm32/stm32_learn00/Core/System/Timmer"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Key/Inc"/>
 					<Add directory="D:/AA_stm32/stm32_learn00/Core/Hardware/Exti"/>
@@ -118,12 +120,6 @@
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Led/Src/led.c">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
-		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.c">
-			<Option target="stm32_learn01.elf"/>
-		</Unit>
-		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Hardware/Utils/delay.h">
-			<Option target="stm32_learn01.elf"/>
-		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Inc/main.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
@@ -143,6 +139,18 @@
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/System/Timmer/timmer.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/System/Timmer/timmer.h">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/System/Utils/delay.c">
+			<Option target="stm32_learn01.elf"/>
+		</Unit>
+		<Unit filename="D:/AA_stm32/stm32_learn00/Core/System/Utils/delay.h">
 			<Option target="stm32_learn01.elf"/>
 		</Unit>
 		<Unit filename="D:/AA_stm32/stm32_learn00/Drivers/CMSIS/Include/core_cm3.h">

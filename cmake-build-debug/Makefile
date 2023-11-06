@@ -200,30 +200,6 @@ Core/Hardware/Led/Src/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Led/Src/led.c.s
 .PHONY : Core/Hardware/Led/Src/led.c.s
 
-Core/Hardware/Utils/delay.obj: Core/Hardware/Utils/delay.c.obj
-.PHONY : Core/Hardware/Utils/delay.obj
-
-# target to build an object file
-Core/Hardware/Utils/delay.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.obj
-.PHONY : Core/Hardware/Utils/delay.c.obj
-
-Core/Hardware/Utils/delay.i: Core/Hardware/Utils/delay.c.i
-.PHONY : Core/Hardware/Utils/delay.i
-
-# target to preprocess a source file
-Core/Hardware/Utils/delay.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.i
-.PHONY : Core/Hardware/Utils/delay.c.i
-
-Core/Hardware/Utils/delay.s: Core/Hardware/Utils/delay.c.s
-.PHONY : Core/Hardware/Utils/delay.s
-
-# target to generate assembly for a file
-Core/Hardware/Utils/delay.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Hardware/Utils/delay.c.s
-.PHONY : Core/Hardware/Utils/delay.c.s
-
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -279,6 +255,54 @@ Core/Startup/startup_stm32f103c8tx.obj: Core/Startup/startup_stm32f103c8tx.s.obj
 Core/Startup/startup_stm32f103c8tx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
 .PHONY : Core/Startup/startup_stm32f103c8tx.s.obj
+
+Core/System/Timmer/timmer.obj: Core/System/Timmer/timmer.c.obj
+.PHONY : Core/System/Timmer/timmer.obj
+
+# target to build an object file
+Core/System/Timmer/timmer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Timmer/timmer.c.obj
+.PHONY : Core/System/Timmer/timmer.c.obj
+
+Core/System/Timmer/timmer.i: Core/System/Timmer/timmer.c.i
+.PHONY : Core/System/Timmer/timmer.i
+
+# target to preprocess a source file
+Core/System/Timmer/timmer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Timmer/timmer.c.i
+.PHONY : Core/System/Timmer/timmer.c.i
+
+Core/System/Timmer/timmer.s: Core/System/Timmer/timmer.c.s
+.PHONY : Core/System/Timmer/timmer.s
+
+# target to generate assembly for a file
+Core/System/Timmer/timmer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Timmer/timmer.c.s
+.PHONY : Core/System/Timmer/timmer.c.s
+
+Core/System/Utils/delay.obj: Core/System/Utils/delay.c.obj
+.PHONY : Core/System/Utils/delay.obj
+
+# target to build an object file
+Core/System/Utils/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Utils/delay.c.obj
+.PHONY : Core/System/Utils/delay.c.obj
+
+Core/System/Utils/delay.i: Core/System/Utils/delay.c.i
+.PHONY : Core/System/Utils/delay.i
+
+# target to preprocess a source file
+Core/System/Utils/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Utils/delay.c.i
+.PHONY : Core/System/Utils/delay.c.i
+
+Core/System/Utils/delay.s: Core/System/Utils/delay.c.s
+.PHONY : Core/System/Utils/delay.s
+
+# target to generate assembly for a file
+Core/System/Utils/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stm32_learn01.elf.dir\build.make CMakeFiles/stm32_learn01.elf.dir/Core/System/Utils/delay.c.s
+.PHONY : Core/System/Utils/delay.c.s
 
 Drivers/CMSIS/Source/core_cm3.obj: Drivers/CMSIS/Source/core_cm3.c.obj
 .PHONY : Drivers/CMSIS/Source/core_cm3.obj
@@ -898,9 +922,6 @@ help:
 	@echo ... Core/Hardware/Led/Src/led.obj
 	@echo ... Core/Hardware/Led/Src/led.i
 	@echo ... Core/Hardware/Led/Src/led.s
-	@echo ... Core/Hardware/Utils/delay.obj
-	@echo ... Core/Hardware/Utils/delay.i
-	@echo ... Core/Hardware/Utils/delay.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
@@ -908,6 +929,12 @@ help:
 	@echo ... Core/Src/stm32f10x_it.i
 	@echo ... Core/Src/stm32f10x_it.s
 	@echo ... Core/Startup/startup_stm32f103c8tx.obj
+	@echo ... Core/System/Timmer/timmer.obj
+	@echo ... Core/System/Timmer/timmer.i
+	@echo ... Core/System/Timmer/timmer.s
+	@echo ... Core/System/Utils/delay.obj
+	@echo ... Core/System/Utils/delay.i
+	@echo ... Core/System/Utils/delay.s
 	@echo ... Drivers/CMSIS/Source/core_cm3.obj
 	@echo ... Drivers/CMSIS/Source/core_cm3.i
 	@echo ... Drivers/CMSIS/Source/core_cm3.s
