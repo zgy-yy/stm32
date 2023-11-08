@@ -20,10 +20,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="pwm led">
+    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="pwm servo">
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/System/Usart/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/System/Usart/usart.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +94,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/AA_stm32/stm32_learn00/Core/Inc",
+    "last_opened_file_path": "D:/AA_stm32/stm32_learn00/Core/Src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,11 +106,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AA_stm32\stm32_learn00\Core\Src" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\Inc" />
       <recent name="D:\AA_stm32\stm32_learn00\Drivers\Library\Src" />
       <recent name="D:\AA_stm32\stm32_learn00\Drivers\Library\Inc" />
       <recent name="D:\stm32\stm32_learn01\Core\Src" />
-      <recent name="D:\stm32\stm32_learn01\Core\Inc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\AA_stm32\stm32_learn00\Core\System" />
@@ -118,9 +121,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="OCD stm32_learn01" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32_learn01" TARGET_NAME="stm32_learn01.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="stm32_learn01" RUN_TARGET_NAME="stm32_learn01.elf">
@@ -148,7 +151,11 @@
       <workItem from="1699086799035" duration="17000" />
       <workItem from="1699086877181" duration="8489000" />
       <workItem from="1699157410679" duration="14994000" />
-      <workItem from="1699239921817" duration="10175000" />
+      <workItem from="1699239921817" duration="14704000" />
+      <workItem from="1699325685463" duration="753000" />
+      <workItem from="1699333140752" duration="113000" />
+      <workItem from="1699363264653" duration="4945000" />
+      <workItem from="1699422448925" duration="4839000" />
     </task>
     <task id="LOCAL-00001" summary="gpio start">
       <option name="closed" value="true" />
@@ -190,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699253351888</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pwm servo">
+      <option name="closed" value="true" />
+      <created>1699254831983</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699254831983</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +234,7 @@
     <MESSAGE value="key gpio input" />
     <MESSAGE value="exti 外部中断" />
     <MESSAGE value="pwm led" />
-    <option name="LAST_COMMIT_MESSAGE" value="pwm led" />
+    <MESSAGE value="pwm servo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pwm servo" />
   </component>
 </project>

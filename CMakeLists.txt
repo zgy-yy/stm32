@@ -54,6 +54,7 @@ include_directories(Core/Inc Drivers/CMSIS/include
         Drivers/Library/Inc
         Core/System/Utils
         Core/System/Timmer
+        Core/System/Usart
         Core/Hardware/Led/Inc
         Core/Hardware/Key/Inc
         Core/Hardware/Exti
@@ -80,3 +81,5 @@ add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
         COMMENT "Building ${HEX_FILE}
 Building ${BIN_FILE}")
+
+
