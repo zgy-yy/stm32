@@ -20,14 +20,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="pwm servo">
-      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/System/Usart/usart.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/System/Usart/usart.h" afterDir="false" />
+    <list default="true" id="eb94c2f2-397a-4b09-86dd-068aa9b7f018" name="更改" comment="usart printf 重定向">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Lcd/Gui.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Lcd/Gui.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Lcd/Lcd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Lcd/Lcd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Hardware/Lcd/font.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Hardware/Pwm/pwm.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/System/Usart/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/System/Usart/usart.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
@@ -90,34 +96,35 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/AA_stm32/stm32_learn00/Core/Src",
+    "last_opened_file_path": "D:/AA_stm32/stm32_learn00/Core/Lvgl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
+    "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AA_stm32\stm32_learn00\Core\Lvgl" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\Src" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\Inc" />
       <recent name="D:\AA_stm32\stm32_learn00\Drivers\Library\Src" />
       <recent name="D:\AA_stm32\stm32_learn00\Drivers\Library\Inc" />
-      <recent name="D:\stm32\stm32_learn01\Core\Src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\AA_stm32\stm32_learn00\Core" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\System" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\Hardware\Led" />
       <recent name="D:\AA_stm32\stm32_learn00\Drivers\CMSIS\Source" />
       <recent name="D:\AA_stm32\stm32_learn00\Core\Src" />
-      <recent name="D:\AA_stm32\stm32_learn00\Core\Inc" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,7 +162,9 @@
       <workItem from="1699325685463" duration="753000" />
       <workItem from="1699333140752" duration="113000" />
       <workItem from="1699363264653" duration="4945000" />
-      <workItem from="1699422448925" duration="4839000" />
+      <workItem from="1699422448925" duration="9386000" />
+      <workItem from="1699439635533" duration="7576000" />
+      <workItem from="1699588155527" duration="21788000" />
     </task>
     <task id="LOCAL-00001" summary="gpio start">
       <option name="closed" value="true" />
@@ -205,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699254831983</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="usart printf 重定向">
+      <option name="closed" value="true" />
+      <created>1699428403724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699428403724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +252,7 @@
     <MESSAGE value="exti 外部中断" />
     <MESSAGE value="pwm led" />
     <MESSAGE value="pwm servo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pwm servo" />
+    <MESSAGE value="usart printf 重定向" />
+    <option name="LAST_COMMIT_MESSAGE" value="usart printf 重定向" />
   </component>
 </project>

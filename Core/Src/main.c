@@ -6,17 +6,21 @@
 #include "delay.h"
 #include "pwm.h"
 #include "usart.h"
+#include "Lcd.h"
+#include "Gui.h"
 
 
 int main() {
 
     Serial_init();
-    Serial_sendByte(0x42);
 
-    printf("hello，%0.2f",3.14);
-    printf("你好、n");
+    Lcd_Init();
+    Lcd_Clear(WHITE);
+
+    LCD_ShowString(0, 0, 16*8, 16*10,"HELLO WORLD nihao");
+
     while (true) {
-
+        Delay_ms(5);
     }
 }
 

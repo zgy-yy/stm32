@@ -36,6 +36,19 @@ void Serial_init() {
     };
     USART_Init(USART1, &usart_config);
 
+//    开启接收中断
+    USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
+
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+
+    NVIC_InitTypeDef usart_nvic_config = {
+            .NVIC_IRQChannel=USART1_IRQn,
+            .NVIC_IRQChannelCmd=ENABLE,
+            .NVIC_IRQChannelPreemptionPriority=2,
+            .NVIC_IRQChannelSubPriority=2,
+    };
+    NVIC_Init(&usart_nvic_config);
+
     USART_Cmd(USART1, ENABLE);
 }
 
@@ -48,4 +61,12 @@ void Serial_sendByte(uint8_t data) {
 
 int __io_putchar(int ch) {
     Serial_sendByte(ch);
+}
+
+//接收数据中断
+
+void USART1_IRQHandler() {
+    if (USART_GetITStatus(USART1, USART_IT_RXNE) == SET) {
+        USART_ReceiveData(USART1);
+    }
 }
