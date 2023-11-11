@@ -16,8 +16,9 @@ extern "C"
 
 void LCD_ShowChar(uint16_t x, uint16_t y, char chr);
 
-void LCD_ShowString(uint16_t x, uint16_t y, uint16_t width, uint16_t height, char *p);
+void LCD_ShowString(uint16_t x, uint16_t y, char *p);
 
+void lcd_printf(uint16_t x, uint16_t y,const char *format, ...);
 #ifdef __cplusplus
 }
 #endif

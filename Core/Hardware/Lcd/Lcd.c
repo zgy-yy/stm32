@@ -222,15 +222,15 @@ void Lcd_Init(void) {
 
 void Lcd_SetRegion(u16 x_start, u16 y_start, u16 x_end, u16 y_end) {
     Lcd_WriteIndex(0x2a);
-    Lcd_WriteData(x_start >> 8);
+    Lcd_WriteData(0x00);
     Lcd_WriteData(x_start);//Lcd_WriteData(x_start+2);
-    Lcd_WriteData(x_end >> 8);
+    Lcd_WriteData(0x00);
     Lcd_WriteData(x_end);
 
     Lcd_WriteIndex(0x2b);
-    Lcd_WriteData(y_start >> 8);
+    Lcd_WriteData(0x00);
     Lcd_WriteData(y_start);
-    Lcd_WriteData(y_end >> 8);
+    Lcd_WriteData(0x00);
     Lcd_WriteData(y_end);
 
     Lcd_WriteIndex(0x2c);
@@ -260,7 +260,7 @@ unsigned int Lcd_ReadPoint(u16 x, u16 y) {
 void Lcd_Clear(u16 Color) {
     unsigned int i, m;
     Lcd_SetRegion(0, 0, X_MAX_PIXEL - 1, Y_MAX_PIXEL - 1);
-
+    Lcd_WriteIndex(0x2c);
     for (i = 0; i < X_MAX_PIXEL; i++)
         for (m = 0; m < Y_MAX_PIXEL; m++) {
             LCD_WriteData_16Bit(Color);

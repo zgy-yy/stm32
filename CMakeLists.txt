@@ -61,6 +61,8 @@ include_directories(Core/Inc Drivers/CMSIS/include
         Core/Hardware/ExteSource
         Core/Hardware/Pwm
         Core/Hardware/Lcd
+        Core/Hardware/IC
+        Core/Hardware/Adc
 )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
