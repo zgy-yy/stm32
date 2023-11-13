@@ -38,7 +38,7 @@ void Pwm_init() {
             .TIM_OCMode = TIM_OCMode_PWM1,//输出比较模式，选择PWM模式1
             .TIM_OCPolarity=TIM_OCPolarity_High,//输出极性，选择为高，若选择极性为低，则输出高低电平取反
             .TIM_OutputState=TIM_OutputState_Enable,//输出使能
-            .TIM_Pulse=0,//初始的CCR值
+            .TIM_Pulse=10,//初始的CCR值
     };
 
     TIM_OC1Init(TIM2, &tim_oc_config);

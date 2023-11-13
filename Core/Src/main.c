@@ -8,23 +8,19 @@
 #include "Ic.h"
 #include "Adc.h"
 
-int main() {
+#include "Dma.h"
+#include "Infrared.h"
 
+int main() {
     Serial_init();
-    Adc_init();
 
 
     Lcd_Init();
     Lcd_Clear(RED);
 
 
-    uint16_t data = 0;
     while (true) {
-        data = Adc_getValue();
-        lcd_printf(0, 0, "adc=%d", data);
-
+    // printf("%d\n", DAC_GetDataOutputValue(DAC_Channel_1));
         Delay_ms(100);
     }
 }
-
-

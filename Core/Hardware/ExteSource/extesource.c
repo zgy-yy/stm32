@@ -41,7 +41,7 @@ void SourceClock_init() {
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);//设置响应优先级
 
     NVIC_InitTypeDef nvic_config = {
-            .NVIC_IRQChannel=TIM2_IRQn,//配置通道
+            .NVIC_IRQChannel=TIM3_IRQn,//配置通道
             .NVIC_IRQChannelCmd=ENABLE,
             .NVIC_IRQChannelPreemptionPriority=1,
             .NVIC_IRQChannelSubPriority=1,

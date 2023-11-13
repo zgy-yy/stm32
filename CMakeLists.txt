@@ -63,6 +63,8 @@ include_directories(Core/Inc Drivers/CMSIS/include
         Core/Hardware/Lcd
         Core/Hardware/IC
         Core/Hardware/Adc
+        Core/Hardware/Dma
+        Core/Hardware/Infrared
 )
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
